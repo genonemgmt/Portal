@@ -3,15 +3,15 @@ Merchant navigate through **Configuration > PayFabric Settings**. The below scre
 
 ![settings](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/v2/settings.png)
 
-### PART A - Device Name
+### Device Name
 
 The dropdown will load all your devices. PayFabric support you configure different settings by devices. Every merchants will get system default device by default when they were creating a PayFabric account. Settings under "System Default" device is the default ones. However settings of other device can override the default settings. Thereby, the overridden setting will take effect if developers are calling API through the specific device.   
 
-### PART B - Accept Card Types
+### Accept Card Types
 
 By Default, PayFabric can support those card types listed on Page. However, merchant can disable one or more of them by clear the selections.
 
-### PART C - Transaction Options
+### Transaction Options
 
 These are settings relate to process a payment transaction. Please refer to the table below
 
@@ -27,11 +27,12 @@ These are settings relate to process a payment transaction. Please refer to the 
 > Some gateways with good fraud protection service could be able to configured to deny those transactions when the billing address, zip or cvv2 verification fail. In this case, merchants don't have to check these options.
 
 
-### PART D - General Settings
+### General Settings
 
 | Field                          | Definition   | 
 | :------------------------------|:-------------| 
 | Maximum History Cards          | Restrict the maximum number of wallet entries which customer can create. The loading performance of hosted page may be lagged because your customer creating a large number of wallet entries | 
+|Enable Security Token|For APIs and Hosted Pages: this is the default option where security token will be allow to use as the authentication method in both hosted pages and APIs. For Hosted Pages Only: with this option, security token will ONLY be allow to use as the authentication method in hosted pages. The API service response will fail authentication if any API calls was authenticated using security token.|
 | Transaction Key Prefix         | User defined prefix for transaction key. | 
 | PostURL                        | PayFabric will post transaction data fields (Non-sensitive fields) to this URL once this transaction is processed (successful or failed) |
 | Batch Number Prefix            | User defined prefix for batch number |  
