@@ -21,13 +21,13 @@ Click 'Access PayFabric Sandbox' to start using test PayFabric payment service.
 ## Define Devices
 You have to create at least one device ([Glossary](https://github.com/PayFabric/Portal/#glossary)) before consuming Payment APIs. To populate a new Device ID, navigate through **Settings > DEV Central > Devices**. You will be redirected to page "Device Management". Initially, this screen has only one **Generate** button. Then you can click this button and populate fields "Device Name", "Password", "Confirm Password", and click "Save". You will get this screen. 
 
-![device id](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/v2/deviceid.png)
+![device id](https://raw.githubusercontent.com/PayFabric/Portal/v2/Sections/Screenshots/deviceid.png)
 
 You can keep on adding multiple devices based on your business scenarios of your company. Normally, one device is corresponding to one kind of application. Different application may have different demand of displaying PayFabric hosted payment page. This is **PayFabric Theme** coming into picture. A "Theme" can be assigned to a device to enable the PayFabric hosted page get a specific UI when loading at that device. You must notice that there's a column in above grid, named "Default Theme". However you will be informed "You don't have a theme, you can go to Theme page to create one" at this moment. 
 
 The "Themes" page can be displayed by navigating **Settings > DEV Central > Themes** on the left menu. You will be landing on below page. To create a new theme, you can click the button "Create New" and save. The below screen demos the simplest example, that is, change all the hyperlink's font color to red. And of course, you can add more css code here to affect the PayFabric hosted payment/wallet page. However, if you don't utilize the PayFabric hosted payment/wallet page, you can feel free to leave it blank.
 
-![themes](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/v2/themes.png)
+![themes](https://raw.githubusercontent.com/PayFabric/Portal/v2/Sections/Screenshots/themes.png)
 
 After this step, you can go back to "Device Management" page and configure the "Default Theme" for your device. Besides configuring theme for device, you can also "Change" device name, "Reset" device password, "Revoke" the device, or "Delete" this device. "Revoke" device means regenerate the GUID, this is for better security concerns.
 
@@ -37,7 +37,7 @@ After this step, you can go back to "Device Management" page and configure the "
 ## Setup Gateway Account
 Merchant's gateway account information has to be encrypted and stored into PayFabric before any payment transaction can be successfully submitted onto. By navigating through **Settings > Gateway Account**, you can open the page to create new gateway account profile by clicking "+ Add New Gateway" link > "Use your Existing Gateway" button, the below screen is displayed to you. You will populate all necessary fields in the form.
 
-![gateway 2](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/v2/gateway_profile.png)
+![gateway 2](https://raw.githubusercontent.com/PayFabric/Portal/v2/Sections/Screenshots/gateway_profile.png)
 
 The 4 fields above the section "Gateway Fields" are required by PayFabric system, whereas, those fields within the "Gateway Fields" section are required by gateway. So that, for different gateways, the gateway fields are  different. The explanation of PayFabric fields are as below, and we will introduce the gateway fields in separate chapters.
 
