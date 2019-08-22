@@ -6,7 +6,7 @@ See [Level 2 and Level 3 Fields](https://github.com/PayFabric/PayFabric-APIs/tre
 
 PayFabric is helping merchants avoid incautious downgrading by supporting merchants setup default value for some of level 2 and level 3 fields. Navigate through Main > Configuration > L2/3 Fields Default, you will open below screen.
 
-![l23default](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/v2/L23default.png)
+![l23default](https://raw.githubusercontent.com/PayFabric/Portal/v2/Sections/Screenshots/L23default.png)
 
 # Details
 
