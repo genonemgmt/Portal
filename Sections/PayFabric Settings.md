@@ -1,7 +1,7 @@
 # Summary
 Merchant navigate through **Configuration > PayFabric Settings**. The below screenshot is a typical example of settings. We will go over them one by one in following sections.
 
-![settings](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/v2/settings.png)
+![settings](https://raw.githubusercontent.com/PayFabric/Portal/v2/Sections/Screenshots/Settings.png)
 
 ### Device Name
 
