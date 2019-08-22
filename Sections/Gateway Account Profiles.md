@@ -88,7 +88,7 @@ We only listed the required fields as below. You might want to go back [Setup Ga
 
 For gateway cybersource, there's a small difference. Gateway requires merchant use X509 certification file. You will see the two file uploading textbox on PayFabric like below:
 
-![fileuploading](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/v2/gateway_cybersource.png)
+![fileuploading](https://raw.githubusercontent.com/PayFabric/Portal/v2/Sections/Screenshots/gateway_cybersource.png)
 
 You will have to upload your X509 files allocated from gateway.
 
