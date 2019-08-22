@@ -1,7 +1,7 @@
 # Summary
 Merchant can turn on the feature that send payment receipt to end customer after a transaction is processed. To do this, navigate through **Configuration > Receipt Email**. Below is the screenshot:
 
-![receipt](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/v2/paymentreceipt.png)
+![receipt](https://raw.githubusercontent.com/PayFabric/Portal/v2/Sections/Screenshots/paymentreceipt.png)
 
 ### Send to Customer
 Once checked, PayFabric will send receipt to customer once a transaction is processed. The email address of customer which will receive receipts is the email address in the billing address. The billing email address must be present for each transaction.
