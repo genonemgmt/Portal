@@ -11,17 +11,17 @@ For a list of the most used element id's in the hosted page [please see below](#
 
 Navigate through Home > Dev Central > Themes to open below page. By clicking "Create New" button, you can add a new theme name into your account. A theme includes two parts: "custom css style" and "custom javascript". Your writing will be applied to hosted payment page. So that you can apply your own look and feel. 
 
-![themes](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/v2/themes.png)
+![themes](https://raw.githubusercontent.com/PayFabric/Portal/v2/Sections/Screenshots/themes.png)
 
 Also you can choose to show/hide the related fields on hosted payment page by check/uncheck the parameters of the theme.
 
-![ThemeParams](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/v2/ThemeParams.PNG)
+![ThemeParams](https://raw.githubusercontent.com/PayFabric/Portal/v2/Sections/Screenshots/ThemeParams.PNG)
 
 # Apply a Theme To a Device
 
 Navigate through Home > Dev Central > Devices to open below page. This is device list in your account. By clicking the icon button in column "Default Theme", an extended region will be expanded. All available themes will be listed in this region, you can assign one of them be the default theme of a device. 
 
-![devicetheme](https://s3-us-west-1.amazonaws.com/github-screenshot-repository/v2/themes1.png)
+![devicetheme](https://raw.githubusercontent.com/PayFabric/Portal/v2/Sections/Screenshots/themes1.png)
 
 # Field IDs
 
